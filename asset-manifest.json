@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/invoice-generator/static/css/main.bf50fe30.chunk.css",
-    "main.js": "/invoice-generator/static/js/main.804782cb.chunk.js",
-    "main.js.map": "/invoice-generator/static/js/main.804782cb.chunk.js.map",
+    "main.js": "/invoice-generator/static/js/main.cd9ac366.chunk.js",
+    "main.js.map": "/invoice-generator/static/js/main.cd9ac366.chunk.js.map",
     "runtime-main.js": "/invoice-generator/static/js/runtime-main.8f8e3e21.js",
     "runtime-main.js.map": "/invoice-generator/static/js/runtime-main.8f8e3e21.js.map",
     "static/js/2.036dac87.chunk.js": "/invoice-generator/static/js/2.036dac87.chunk.js",
     "static/js/2.036dac87.chunk.js.map": "/invoice-generator/static/js/2.036dac87.chunk.js.map",
     "static/css/3.f26e749f.chunk.css": "/invoice-generator/static/css/3.f26e749f.chunk.css",
-    "static/js/3.46ce0c9c.chunk.js": "/invoice-generator/static/js/3.46ce0c9c.chunk.js",
-    "static/js/3.46ce0c9c.chunk.js.map": "/invoice-generator/static/js/3.46ce0c9c.chunk.js.map",
+    "static/js/3.34907889.chunk.js": "/invoice-generator/static/js/3.34907889.chunk.js",
+    "static/js/3.34907889.chunk.js.map": "/invoice-generator/static/js/3.34907889.chunk.js.map",
     "static/js/4.0a3e8f50.chunk.js": "/invoice-generator/static/js/4.0a3e8f50.chunk.js",
     "static/js/4.0a3e8f50.chunk.js.map": "/invoice-generator/static/js/4.0a3e8f50.chunk.js.map",
     "static/js/5.e32c6438.chunk.js": "/invoice-generator/static/js/5.e32c6438.chunk.js",
@@ -18,14 +18,14 @@
     "static/css/3.f26e749f.chunk.css.map": "/invoice-generator/static/css/3.f26e749f.chunk.css.map",
     "static/css/main.bf50fe30.chunk.css.map": "/invoice-generator/static/css/main.bf50fe30.chunk.css.map",
     "static/js/2.036dac87.chunk.js.LICENSE.txt": "/invoice-generator/static/js/2.036dac87.chunk.js.LICENSE.txt",
-    "static/js/3.46ce0c9c.chunk.js.LICENSE.txt": "/invoice-generator/static/js/3.46ce0c9c.chunk.js.LICENSE.txt",
+    "static/js/3.34907889.chunk.js.LICENSE.txt": "/invoice-generator/static/js/3.34907889.chunk.js.LICENSE.txt",
     "static/js/4.0a3e8f50.chunk.js.LICENSE.txt": "/invoice-generator/static/js/4.0a3e8f50.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8f8e3e21.js",
     "static/css/3.f26e749f.chunk.css",
-    "static/js/3.46ce0c9c.chunk.js",
+    "static/js/3.34907889.chunk.js",
     "static/css/main.bf50fe30.chunk.css",
-    "static/js/main.804782cb.chunk.js"
+    "static/js/main.cd9ac366.chunk.js"
   ]
 }
