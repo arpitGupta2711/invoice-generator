@@ -39,19 +39,17 @@ async function GenerateInvoice(props) {
     pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
     pdf.save("invoice-001.pdf");
   });
-  if (props.edit) {
+  if (props.copy) {
+    await props.addInvoice(props);
+  } else if (props.edit) {
     await props.editInvoice(props, props.routeParams);
   } else {
     await props.addInvoice(props);
   }
-
   props.navigate("/");
 }
 
 class InvoiceModal extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>

@@ -42,7 +42,7 @@ const Invoice = ({ id, info, view }) => {
       </div>
       <div className="ms-2 " style={{ marginRight: "10%" }}>
         <div className="fw-bold">Date of Issue:</div>
-        {info.currency}
+        {info.dateOfIssue}
       </div>
       <div className="ms-2 me-auto">
         <div className="fw-bold">Total</div>
@@ -50,7 +50,7 @@ const Invoice = ({ id, info, view }) => {
       </div>
 
       <Button style={{ marginLeft: "1%" }} onClick={openModal}>
-        {" "}
+     
         View
       </Button>
       <InvoiceModal
@@ -67,6 +67,9 @@ const Invoice = ({ id, info, view }) => {
       />
       <Link to={`/form/${id}`}>
         <Button style={{ marginLeft: "1%", marginRight: "1%" }}>Edit</Button>
+      </Link>
+      <Link to={`/form/copy/${id}`}>
+        <Button style={{ marginLeft: "1%", marginRight: "1%" }}>Copy</Button>
       </Link>
 
       <div onClick={handleDelete} style={{ cursor: "pointer" }}>

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Invoices = () => {
   const { invoices } = useSelector((state) => state.invoices);
-
+console.log(invoices);
   return (
     <ListGroup style={{ width: "80%", listStyle: "none" }}>
       {invoices.map((item) => {

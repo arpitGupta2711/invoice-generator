@@ -28,6 +28,14 @@ const router = createHashRouter([
       </Container>
     ),
   },
+  {
+    path: "/form/copy/:id",
+    element: (
+      <Container>
+        <InvoiceForm edit={true} copy={true} />
+      </Container>
+    ),
+  },
 ]);
 
 class App extends Component {

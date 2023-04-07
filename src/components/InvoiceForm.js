@@ -62,10 +62,9 @@ class InvoiceForm extends React.Component {
 
   componentDidMount(prevProps) {
     this.handleCalculateTotal();
-    if (this.props.edit) {
+    if (this.props.edit||this.props.copy) {
       const lists = this.props.todoState.invoices;
       const params = this.props.routeParams;
-
       let prevList = lists.find((data) => {
         return parseInt(params.id) === parseInt(data.id);
       });
@@ -357,6 +356,7 @@ class InvoiceForm extends React.Component {
               </Button>
               <InvoiceModal
                 edit={this.props.edit}
+                copy={this.props.copy}
                 showModal={this.state.isOpen}
                 closeModal={this.closeModal}
                 info={this.state}
