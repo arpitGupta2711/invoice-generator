@@ -4,9 +4,9 @@ import "./App.css";
 import Container from "react-bootstrap/Container";
 import InvoiceForm from "./components/InvoiceForm";
 import Invoices from "./components/Invoices/Invoices";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {  createHashRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Invoices />,
