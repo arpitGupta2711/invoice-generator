@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Invoices = () => {
   const { invoices } = useSelector((state) => state.invoices);
-console.log(invoices);
+  console.log(invoices);
   return (
     <ListGroup style={{ width: "80%", listStyle: "none" }}>
       {invoices.map((item) => {
@@ -22,9 +22,17 @@ console.log(invoices);
         );
       })}
 
-      <Link to="/form" style={{ justifyContent: "center", display: "flex" }}>
-        <Button style={{ marginTop: "30px", width: "30%" }}>
-          Add New Invoice
+      <Link
+        to="/form"
+        style={{
+          justifyContent: "center",
+          display: "flex",
+          width: "30%",
+          margin: "auto",
+        }}
+      >
+        <Button style={{ marginTop: "30px", width: "100%" }}>
+          Create New Invoice
         </Button>
       </Link>
     </ListGroup>

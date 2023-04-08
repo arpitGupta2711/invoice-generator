@@ -62,7 +62,7 @@ class InvoiceForm extends React.Component {
 
   componentDidMount(prevProps) {
     this.handleCalculateTotal();
-    if (this.props.edit||this.props.copy) {
+    if (this.props.edit || this.props.copy) {
       const lists = this.props.todoState.invoices;
       const params = this.props.routeParams;
       let prevList = lists.find((data) => {
