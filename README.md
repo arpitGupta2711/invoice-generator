@@ -6,7 +6,7 @@ It uses redux to store the list.
 It also displays all the list generated.
 Each list have features like view, edit, copy and delete.
 
-Note:- Every time a list is Send(by pressing Send invoice Button) or Downloaded it is saved in the list and all the lists are shown.
+Note:- Every time a list is Send(by pressing Send invoice Button) or Downloaded, that invoice is downloaded,it is saved in the list and all the lists are shown.
 
 ### Live Demo
 https://arpitgupta2711.github.io/invoice-generator/
