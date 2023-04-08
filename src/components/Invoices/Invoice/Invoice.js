@@ -90,7 +90,7 @@ const Invoice = ({ id, info, view }) => {
           marginTop: "15px",
         }}
       >
-        <div style={{ marginLeft: "10%", marginRight: "10%" }}>
+        <div style={{ marginLeft: "10%", marginRight: "10%" ,fontSize:'30px'}}>
           <GrFormView
             onClick={openModal}
             title="View"
@@ -126,7 +126,7 @@ const Invoice = ({ id, info, view }) => {
             }}
           />
         </Link>
-        <div style={{ marginLeft: "10%", marginRight: "10%" }}>
+        <div style={{ marginLeft: "10%", marginRight: "10%" ,fontSize:'30px'}}>
           <BsTrash
             onClick={handleDelete}
             style={{
