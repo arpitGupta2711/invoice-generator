@@ -14,7 +14,7 @@ https://arpitgupta2711.github.io/invoice-generator/
 <img src="https://i.imgur.com/wRetnxk.png" style="max-width: 100px; width: 100%; height: auto;">
 <img src="https://i.imgur.com/AZChaei.png" style="max-width: 100px; width: 100%; height: auto;">
 <img src="https://i.imgur.com/Bz3K3DE.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://drive.google.com/file/d/1DkJPSog0S1oeiSeLWoHd-P0KRBC8QN8x/view?usp=sharing" style="max-width: 100px; width: 100%; height: auto;">
+<img src="https://drive.google.com/file/d/1DkJPSog0S1oeiSeLWoHd-P0KRBC8QN8x/view" style="max-width: 100px; width: 100%; height: auto;">
 
 ### Installation
 
