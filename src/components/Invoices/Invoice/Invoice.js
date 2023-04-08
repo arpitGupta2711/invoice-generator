@@ -132,6 +132,7 @@ const Invoice = ({ id, info, view }) => {
             style={{
               cursor: "pointer",
               marginTop: "7px",
+              fontSize: "30px",
             }}
             title="Delete"
           />
